@@ -194,5 +194,5 @@ Status: MasterServerWaitCondition - CREATE_COMPLETE
 Status: parallelcluster-capability-demo - CREATE_COMPLETE
 
 ClusterUser: ubuntu
-MasterPrivateIP: 172.31.49.32
+MasterPrivateIP: *
 ```
