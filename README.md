@@ -195,4 +195,37 @@ Status: parallelcluster-capability-demo - CREATE_COMPLETE
 
 ClusterUser: ubuntu
 MasterPrivateIP: *
+
+
+//ASSUME ROLE
+1. Create Policy
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "*",
+            "Resource": "*"
+        }
+    ]
+}
+
+2. Create Role with that policy
+3. Create Inline policy in group
+{
+  "Version": "2012-10-17",
+  "Statement": {
+    "Effect": "Allow",
+    "Action": "sts:AssumeRole",
+    "Resource": "*"
+  }
+}
+4. Login to CLI
+aws sts assume-role --role-arn
+
+
+
+
+
+
 ```
