@@ -1,5 +1,7 @@
 ## Introduction to AWS 
 
+![image](https://user-images.githubusercontent.com/12431831/73744242-6ab23b80-4776-11ea-8714-1bd4292d1208.png)
+
 # Parallel Clusters
 https://docs.aws.amazon.com/parallelcluster/
 
